@@ -7,11 +7,11 @@
 
 <script>
 // @ is an alias to /src
-import Title from "@/components/Title.vue";
+import Title from '@/components/Title.vue';
 import WeatherAroundTheWorld from '@/components/WeatherAroundTheWorld.vue';
 
 export default {
-  name: "home",
+  name: 'home',
   components: {
     Title,
     WeatherAroundTheWorld

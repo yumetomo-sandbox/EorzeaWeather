@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters } from 'vuex';
 export default {
   name: 'counter',
   computed: {
@@ -22,9 +22,9 @@ export default {
       this.$store.dispatch('counter/minusCount');
     },
     increment() {
-      console.log('プラス')
+      console.log('プラス');
       this.$store.dispatch('counter/plusCount');
     }
   }
-}
+};
 </script>

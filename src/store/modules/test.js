@@ -13,10 +13,10 @@ const TEST = {
   },
   actions: {
     plusCount: ({ commit }) => {
-      commit("PLUS_COUNT");
+      commit('PLUS_COUNT');
     },
     minusCount: ({ commit }) => {
-      commit("MINUS_COUNT");
+      commit('MINUS_COUNT');
     }
   },
   getters: {

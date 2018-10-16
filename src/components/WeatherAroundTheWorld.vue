@@ -3,12 +3,16 @@
 </template>
 
 <script>
-import EorzeaWeather from "eorzea-weather";
+import EorzeaWeather from 'eorzea-weather';
 
 export default {
-  name: "WeatherAroundTheWorld",
+  name: 'WeatherAroundTheWorld',
   created() {
-    console.log(EorzeaWeather.getWeather(EorzeaWeather.ZONE_YANXIA, new Date()));
+    const WEATHER = EorzeaWeather.getWeather(
+      EorzeaWeather.ZONE_YANXIA,
+      new Date()
+    );
+    console.log(WEATHER);
   }
 };
 </script>

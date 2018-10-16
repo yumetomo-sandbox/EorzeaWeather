@@ -1,7 +1,7 @@
-import Vue from "vue";
-import Vuex from "vuex";
-import Counter from "./modules/counter";
-import Test from "./modules/test";
+import Vue from 'vue';
+import Vuex from 'vuex';
+import Counter from './modules/counter';
+import Test from './modules/test';
 
 Vue.use(Vuex);
 

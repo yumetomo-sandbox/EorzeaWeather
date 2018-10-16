@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "Header"
+  name: 'Header'
 };
 </script>
 
@@ -19,7 +19,7 @@ export default {
 header {
   width: 100%;
   height: 60px;
-  background: #37AC70;
+  background: #37ac70;
   nav {
     color: #fff;
     text-align: left;

@@ -10,8 +10,6 @@
 <script>
 import axios from 'axios';
 require('es6-promise').polyfill();
-
-// @ is an alias to /src
 import Header from '@/components/Header.vue';
 
 export default {

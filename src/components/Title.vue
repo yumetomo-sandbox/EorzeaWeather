@@ -8,12 +8,12 @@
 <script>
 import EorzeaTime from 'eorzea-time';
 export default {
-  name: "Title",
+  name: 'Title',
   data() {
-    return{
+    return {
       eorzeaTime: new EorzeaTime().toString(),
       animattionFrame: null
-    }
+    };
   },
   methods: {
     loop() {
