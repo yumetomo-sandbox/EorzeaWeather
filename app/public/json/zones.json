@@ -1,0 +1,13 @@
+{
+  "zones": {
+    "laNoscea": [
+      "ZONE_LIMSA_LOMINSA",
+      "ZONE_MIDDLE_LA_NOSCEA",
+      "ZONE_LOWER_LA_NOSCEA",
+      "ZONE_EASTERN_LA_NOSCEA",
+      "ZONE_WESTERN_LA_NOSCEA",
+      "ZONE_UPPER_LA_NOSCEA",
+      "ZONE_OUTER_LA_NOSCEA"
+    ]
+  }
+}
