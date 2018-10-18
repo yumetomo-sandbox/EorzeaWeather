@@ -19,9 +19,9 @@ export default {
   },
   mounted() {
     const JSON_PATH = '/json/zones.json';
-    axios.get(JSON_PATH).then(result => {
-      console.log(result);
-    });
+    // axios.get(JSON_PATH).then(result => {
+    //   console.log(result);
+    // });
   }
 };
 </script>
