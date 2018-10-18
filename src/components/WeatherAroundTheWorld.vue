@@ -21,24 +21,24 @@ const FeedQuery = gql `
     allZoneses {
       id
       name
-      regions{
+      regions {
         name
       }
     }
   }
-`
+`;
 
 export default {
   name: 'WeatherAroundTheWorld',
   data: () => ({
     allZoneses: {},
-    loading: 0,
+    loading: 0
   }),
   apollo: {
     allZoneses: {
       query: FeedQuery,
-      loadingKey: 'loading',
-    },
+      loadingKey: 'loading'
+    }
   },
   created() {
     const WEATHER = EorzeaWeather.getWeather(
