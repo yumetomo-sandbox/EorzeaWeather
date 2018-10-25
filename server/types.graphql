@@ -1,11 +1,13 @@
 type Zones @model {
   id: ID! @isUnique
   name: String!
+  japaneseName: String!
   regions: [Regions!]! @relation(name: "ZoneOnRegion")
 }
 
 type Regions @model  {
   id: ID! @isUnique
   name: String!
+  japaneseName: String!
   zone: Zones @relation(name: "ZoneOnRegion")
 }

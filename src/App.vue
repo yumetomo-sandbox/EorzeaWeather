@@ -8,20 +8,12 @@
 </template>
 
 <script>
-import axios from 'axios';
-require('es6-promise').polyfill();
 import Header from '@/components/Header.vue';
 
 export default {
   name: 'app',
   components: {
     Header
-  },
-  mounted() {
-    const JSON_PATH = '/json/zones.json';
-    // axios.get(JSON_PATH).then(result => {
-    //   console.log(result);
-    // });
   }
 };
 </script>
